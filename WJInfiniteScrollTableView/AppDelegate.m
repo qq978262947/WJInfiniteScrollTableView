@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WJCycleTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    WJCycleTableViewController *cycleTableViewController = [[WJCycleTableViewController alloc]init];
+    cycleTableViewController.title = @"内存管理";
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:cycleTableViewController];
+    self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    self.window.rootViewController = nav;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

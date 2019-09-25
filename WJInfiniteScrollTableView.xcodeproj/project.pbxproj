@@ -15,6 +15,15 @@
 		DAB21031233B60B500E25950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21030233B60B500E25950 /* main.m */; };
 		DAB2103B233B60B500E25950 /* WJInfiniteScrollTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2103A233B60B500E25950 /* WJInfiniteScrollTableViewTests.m */; };
 		DAB21046233B60B500E25950 /* WJInfiniteScrollTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21045233B60B500E25950 /* WJInfiniteScrollTableViewUITests.m */; };
+		DAB21077233B61A000E25950 /* UILabel+WJFastUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21066233B61A000E25950 /* UILabel+WJFastUIKit.m */; };
+		DAB21078233B61A000E25950 /* NSMutableDictionary+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2106C233B61A000E25950 /* NSMutableDictionary+WJExtension.m */; };
+		DAB21079233B61A000E25950 /* WJCycleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2106D233B61A000E25950 /* WJCycleTableView.m */; };
+		DAB2107A233B61A000E25950 /* UIView+WJFastUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2106F233B61A000E25950 /* UIView+WJFastUIKit.m */; };
+		DAB2107B233B61A000E25950 /* WJCycleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21071233B61A000E25950 /* WJCycleTableViewController.m */; };
+		DAB2107C233B61A000E25950 /* NSArray+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21072233B61A000E25950 /* NSArray+WJExtension.m */; };
+		DAB2107D233B61A000E25950 /* WJCycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21075233B61A000E25950 /* WJCycleCell.m */; };
+		DAB2107E233B61A000E25950 /* NSMutableArray+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21076233B61A000E25950 /* NSMutableArray+WJExtension.m */; };
+		DAB21084233B620200E25950 /* UIView+WJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21083233B620200E25950 /* UIView+WJFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,25 @@
 		DAB21041233B60B500E25950 /* WJInfiniteScrollTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJInfiniteScrollTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB21045233B60B500E25950 /* WJInfiniteScrollTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJInfiniteScrollTableViewUITests.m; sourceTree = "<group>"; };
 		DAB21047233B60B500E25950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB21066233B61A000E25950 /* UILabel+WJFastUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WJFastUIKit.m"; sourceTree = "<group>"; };
+		DAB21067233B61A000E25950 /* UIView+WJFastUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WJFastUIKit.h"; sourceTree = "<group>"; };
+		DAB21068233B61A000E25950 /* WJFastUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJFastUIKit.h; sourceTree = "<group>"; };
+		DAB21069233B61A000E25950 /* NSArray+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WJExtension.h"; sourceTree = "<group>"; };
+		DAB2106A233B61A000E25950 /* WJCycleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCycleTableViewController.h; sourceTree = "<group>"; };
+		DAB2106B233B61A000E25950 /* WJCycleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCycleCell.h; sourceTree = "<group>"; };
+		DAB2106C233B61A000E25950 /* NSMutableDictionary+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+WJExtension.m"; sourceTree = "<group>"; };
+		DAB2106D233B61A000E25950 /* WJCycleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCycleTableView.m; sourceTree = "<group>"; };
+		DAB2106E233B61A000E25950 /* NSMutableArray+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WJExtension.h"; sourceTree = "<group>"; };
+		DAB2106F233B61A000E25950 /* UIView+WJFastUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WJFastUIKit.m"; sourceTree = "<group>"; };
+		DAB21070233B61A000E25950 /* UILabel+WJFastUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WJFastUIKit.h"; sourceTree = "<group>"; };
+		DAB21071233B61A000E25950 /* WJCycleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCycleTableViewController.m; sourceTree = "<group>"; };
+		DAB21072233B61A000E25950 /* NSArray+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WJExtension.m"; sourceTree = "<group>"; };
+		DAB21073233B61A000E25950 /* WJCycleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCycleTableView.h; sourceTree = "<group>"; };
+		DAB21074233B61A000E25950 /* NSMutableDictionary+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+WJExtension.h"; sourceTree = "<group>"; };
+		DAB21075233B61A000E25950 /* WJCycleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCycleCell.m; sourceTree = "<group>"; };
+		DAB21076233B61A000E25950 /* NSMutableArray+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WJExtension.m"; sourceTree = "<group>"; };
+		DAB21082233B620200E25950 /* UIView+WJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WJFrame.h"; sourceTree = "<group>"; };
+		DAB21083233B620200E25950 /* UIView+WJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WJFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +129,7 @@
 		DAB21020233B60B300E25950 /* WJInfiniteScrollTableView */ = {
 			isa = PBXGroup;
 			children = (
+				DAB21065233B61A000E25950 /* 无限滚动的tableView */,
 				DAB21021233B60B300E25950 /* AppDelegate.h */,
 				DAB21022233B60B300E25950 /* AppDelegate.m */,
 				DAB21024233B60B300E25950 /* ViewController.h */,
@@ -130,6 +159,32 @@
 				DAB21047233B60B500E25950 /* Info.plist */,
 			);
 			path = WJInfiniteScrollTableViewUITests;
+			sourceTree = "<group>";
+		};
+		DAB21065233B61A000E25950 /* 无限滚动的tableView */ = {
+			isa = PBXGroup;
+			children = (
+				DAB21082233B620200E25950 /* UIView+WJFrame.h */,
+				DAB21083233B620200E25950 /* UIView+WJFrame.m */,
+				DAB21069233B61A000E25950 /* NSArray+WJExtension.h */,
+				DAB21072233B61A000E25950 /* NSArray+WJExtension.m */,
+				DAB2106E233B61A000E25950 /* NSMutableArray+WJExtension.h */,
+				DAB21076233B61A000E25950 /* NSMutableArray+WJExtension.m */,
+				DAB21074233B61A000E25950 /* NSMutableDictionary+WJExtension.h */,
+				DAB2106C233B61A000E25950 /* NSMutableDictionary+WJExtension.m */,
+				DAB21070233B61A000E25950 /* UILabel+WJFastUIKit.h */,
+				DAB21066233B61A000E25950 /* UILabel+WJFastUIKit.m */,
+				DAB21067233B61A000E25950 /* UIView+WJFastUIKit.h */,
+				DAB2106F233B61A000E25950 /* UIView+WJFastUIKit.m */,
+				DAB2106B233B61A000E25950 /* WJCycleCell.h */,
+				DAB21075233B61A000E25950 /* WJCycleCell.m */,
+				DAB21073233B61A000E25950 /* WJCycleTableView.h */,
+				DAB2106D233B61A000E25950 /* WJCycleTableView.m */,
+				DAB2106A233B61A000E25950 /* WJCycleTableViewController.h */,
+				DAB21071233B61A000E25950 /* WJCycleTableViewController.m */,
+				DAB21068233B61A000E25950 /* WJFastUIKit.h */,
+			);
+			path = "无限滚动的tableView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +319,16 @@
 			files = (
 				DAB21026233B60B300E25950 /* ViewController.m in Sources */,
 				DAB21031233B60B500E25950 /* main.m in Sources */,
+				DAB2107A233B61A000E25950 /* UIView+WJFastUIKit.m in Sources */,
+				DAB21084233B620200E25950 /* UIView+WJFrame.m in Sources */,
+				DAB2107D233B61A000E25950 /* WJCycleCell.m in Sources */,
+				DAB2107C233B61A000E25950 /* NSArray+WJExtension.m in Sources */,
+				DAB21078233B61A000E25950 /* NSMutableDictionary+WJExtension.m in Sources */,
+				DAB21079233B61A000E25950 /* WJCycleTableView.m in Sources */,
+				DAB2107E233B61A000E25950 /* NSMutableArray+WJExtension.m in Sources */,
+				DAB21077233B61A000E25950 /* UILabel+WJFastUIKit.m in Sources */,
 				DAB21023233B60B300E25950 /* AppDelegate.m in Sources */,
+				DAB2107B233B61A000E25950 /* WJCycleTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
