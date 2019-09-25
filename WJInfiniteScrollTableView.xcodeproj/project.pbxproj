@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB21023233B60B300E25950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21022233B60B300E25950 /* AppDelegate.m */; };
+		DAB21026233B60B300E25950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21025233B60B300E25950 /* ViewController.m */; };
+		DAB21029233B60B300E25950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB21027233B60B300E25950 /* Main.storyboard */; };
+		DAB2102B233B60B500E25950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB2102A233B60B500E25950 /* Assets.xcassets */; };
+		DAB2102E233B60B500E25950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB2102C233B60B500E25950 /* LaunchScreen.storyboard */; };
+		DAB21031233B60B500E25950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21030233B60B500E25950 /* main.m */; };
+		DAB2103B233B60B500E25950 /* WJInfiniteScrollTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2103A233B60B500E25950 /* WJInfiniteScrollTableViewTests.m */; };
+		DAB21046233B60B500E25950 /* WJInfiniteScrollTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB21045233B60B500E25950 /* WJInfiniteScrollTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB21037233B60B500E25950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB21016233B60B300E25950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB2101D233B60B300E25950;
+			remoteInfo = WJInfiniteScrollTableView;
+		};
+		DAB21042233B60B500E25950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB21016233B60B300E25950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB2101D233B60B300E25950;
+			remoteInfo = WJInfiniteScrollTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB2101E233B60B300E25950 /* WJInfiniteScrollTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJInfiniteScrollTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB21021233B60B300E25950 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB21022233B60B300E25950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB21024233B60B300E25950 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB21025233B60B300E25950 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAB21028233B60B300E25950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB2102A233B60B500E25950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB2102D233B60B500E25950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB2102F233B60B500E25950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB21030233B60B500E25950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB21036233B60B500E25950 /* WJInfiniteScrollTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJInfiniteScrollTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2103A233B60B500E25950 /* WJInfiniteScrollTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJInfiniteScrollTableViewTests.m; sourceTree = "<group>"; };
+		DAB2103C233B60B500E25950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB21041233B60B500E25950 /* WJInfiniteScrollTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJInfiniteScrollTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB21045233B60B500E25950 /* WJInfiniteScrollTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJInfiniteScrollTableViewUITests.m; sourceTree = "<group>"; };
+		DAB21047233B60B500E25950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB2101B233B60B300E25950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB21033233B60B500E25950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2103E233B60B500E25950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB21015233B60B300E25950 = {
+			isa = PBXGroup;
+			children = (
+				DAB21020233B60B300E25950 /* WJInfiniteScrollTableView */,
+				DAB21039233B60B500E25950 /* WJInfiniteScrollTableViewTests */,
+				DAB21044233B60B500E25950 /* WJInfiniteScrollTableViewUITests */,
+				DAB2101F233B60B300E25950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB2101F233B60B300E25950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2101E233B60B300E25950 /* WJInfiniteScrollTableView.app */,
+				DAB21036233B60B500E25950 /* WJInfiniteScrollTableViewTests.xctest */,
+				DAB21041233B60B500E25950 /* WJInfiniteScrollTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB21020233B60B300E25950 /* WJInfiniteScrollTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DAB21021233B60B300E25950 /* AppDelegate.h */,
+				DAB21022233B60B300E25950 /* AppDelegate.m */,
+				DAB21024233B60B300E25950 /* ViewController.h */,
+				DAB21025233B60B300E25950 /* ViewController.m */,
+				DAB21027233B60B300E25950 /* Main.storyboard */,
+				DAB2102A233B60B500E25950 /* Assets.xcassets */,
+				DAB2102C233B60B500E25950 /* LaunchScreen.storyboard */,
+				DAB2102F233B60B500E25950 /* Info.plist */,
+				DAB21030233B60B500E25950 /* main.m */,
+			);
+			path = WJInfiniteScrollTableView;
+			sourceTree = "<group>";
+		};
+		DAB21039233B60B500E25950 /* WJInfiniteScrollTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2103A233B60B500E25950 /* WJInfiniteScrollTableViewTests.m */,
+				DAB2103C233B60B500E25950 /* Info.plist */,
+			);
+			path = WJInfiniteScrollTableViewTests;
+			sourceTree = "<group>";
+		};
+		DAB21044233B60B500E25950 /* WJInfiniteScrollTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB21045233B60B500E25950 /* WJInfiniteScrollTableViewUITests.m */,
+				DAB21047233B60B500E25950 /* Info.plist */,
+			);
+			path = WJInfiniteScrollTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB2101D233B60B300E25950 /* WJInfiniteScrollTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2104A233B60B500E25950 /* Build configuration list for PBXNativeTarget "WJInfiniteScrollTableView" */;
+			buildPhases = (
+				DAB2101A233B60B300E25950 /* Sources */,
+				DAB2101B233B60B300E25950 /* Frameworks */,
+				DAB2101C233B60B300E25950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJInfiniteScrollTableView;
+			productName = WJInfiniteScrollTableView;
+			productReference = DAB2101E233B60B300E25950 /* WJInfiniteScrollTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB21035233B60B500E25950 /* WJInfiniteScrollTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2104D233B60B500E25950 /* Build configuration list for PBXNativeTarget "WJInfiniteScrollTableViewTests" */;
+			buildPhases = (
+				DAB21032233B60B500E25950 /* Sources */,
+				DAB21033233B60B500E25950 /* Frameworks */,
+				DAB21034233B60B500E25950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB21038233B60B500E25950 /* PBXTargetDependency */,
+			);
+			name = WJInfiniteScrollTableViewTests;
+			productName = WJInfiniteScrollTableViewTests;
+			productReference = DAB21036233B60B500E25950 /* WJInfiniteScrollTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB21040233B60B500E25950 /* WJInfiniteScrollTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB21050233B60B500E25950 /* Build configuration list for PBXNativeTarget "WJInfiniteScrollTableViewUITests" */;
+			buildPhases = (
+				DAB2103D233B60B500E25950 /* Sources */,
+				DAB2103E233B60B500E25950 /* Frameworks */,
+				DAB2103F233B60B500E25950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB21043233B60B500E25950 /* PBXTargetDependency */,
+			);
+			name = WJInfiniteScrollTableViewUITests;
+			productName = WJInfiniteScrollTableViewUITests;
+			productReference = DAB21041233B60B500E25950 /* WJInfiniteScrollTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB21016233B60B300E25950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "汪俊";
+				TargetAttributes = {
+					DAB2101D233B60B300E25950 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DAB21035233B60B500E25950 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DAB2101D233B60B300E25950;
+					};
+					DAB21040233B60B500E25950 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DAB2101D233B60B300E25950;
+					};
+				};
+			};
+			buildConfigurationList = DAB21019233B60B300E25950 /* Build configuration list for PBXProject "WJInfiniteScrollTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB21015233B60B300E25950;
+			productRefGroup = DAB2101F233B60B300E25950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB2101D233B60B300E25950 /* WJInfiniteScrollTableView */,
+				DAB21035233B60B500E25950 /* WJInfiniteScrollTableViewTests */,
+				DAB21040233B60B500E25950 /* WJInfiniteScrollTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB2101C233B60B300E25950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2102E233B60B500E25950 /* LaunchScreen.storyboard in Resources */,
+				DAB2102B233B60B500E25950 /* Assets.xcassets in Resources */,
+				DAB21029233B60B300E25950 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB21034233B60B500E25950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2103F233B60B500E25950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB2101A233B60B300E25950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB21026233B60B300E25950 /* ViewController.m in Sources */,
+				DAB21031233B60B500E25950 /* main.m in Sources */,
+				DAB21023233B60B300E25950 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB21032233B60B500E25950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2103B233B60B500E25950 /* WJInfiniteScrollTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2103D233B60B500E25950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB21046233B60B500E25950 /* WJInfiniteScrollTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB21038233B60B500E25950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB2101D233B60B300E25950 /* WJInfiniteScrollTableView */;
+			targetProxy = DAB21037233B60B500E25950 /* PBXContainerItemProxy */;
+		};
+		DAB21043233B60B500E25950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB2101D233B60B300E25950 /* WJInfiniteScrollTableView */;
+			targetProxy = DAB21042233B60B500E25950 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB21027233B60B300E25950 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB21028233B60B300E25950 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB2102C233B60B500E25950 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB2102D233B60B500E25950 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB21048233B60B500E25950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAB21049233B60B500E25950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB2104B233B60B500E25950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VHMZAJUND;
+				INFOPLIST_FILE = WJInfiniteScrollTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangjun.WJInfiniteScrollTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB2104C233B60B500E25950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VHMZAJUND;
+				INFOPLIST_FILE = WJInfiniteScrollTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangjun.WJInfiniteScrollTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAB2104E233B60B500E25950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VHMZAJUND;
+				INFOPLIST_FILE = WJInfiniteScrollTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangjun.WJInfiniteScrollTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJInfiniteScrollTableView.app/WJInfiniteScrollTableView";
+			};
+			name = Debug;
+		};
+		DAB2104F233B60B500E25950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VHMZAJUND;
+				INFOPLIST_FILE = WJInfiniteScrollTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangjun.WJInfiniteScrollTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJInfiniteScrollTableView.app/WJInfiniteScrollTableView";
+			};
+			name = Release;
+		};
+		DAB21051233B60B500E25950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VHMZAJUND;
+				INFOPLIST_FILE = WJInfiniteScrollTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangjun.WJInfiniteScrollTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJInfiniteScrollTableView;
+			};
+			name = Debug;
+		};
+		DAB21052233B60B500E25950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VHMZAJUND;
+				INFOPLIST_FILE = WJInfiniteScrollTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangjun.WJInfiniteScrollTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJInfiniteScrollTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB21019233B60B300E25950 /* Build configuration list for PBXProject "WJInfiniteScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB21048233B60B500E25950 /* Debug */,
+				DAB21049233B60B500E25950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2104A233B60B500E25950 /* Build configuration list for PBXNativeTarget "WJInfiniteScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2104B233B60B500E25950 /* Debug */,
+				DAB2104C233B60B500E25950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2104D233B60B500E25950 /* Build configuration list for PBXNativeTarget "WJInfiniteScrollTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2104E233B60B500E25950 /* Debug */,
+				DAB2104F233B60B500E25950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB21050233B60B500E25950 /* Build configuration list for PBXNativeTarget "WJInfiniteScrollTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB21051233B60B500E25950 /* Debug */,
+				DAB21052233B60B500E25950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB21016233B60B300E25950 /* Project object */;
+}
